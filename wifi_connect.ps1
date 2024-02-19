@@ -1,4 +1,5 @@
-﻿$wifi=@()
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+$wifi=@()
 #Visualisation des réseaux bloqués
 $cmd0=netsh wlan show blockednetworks
 #Liste des SSID
