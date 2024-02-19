@@ -12,7 +12,7 @@ if window:
     window = window[0]
 
     # Déplacer la fenêtre à de nouvelles coordonnées (par exemple, 100, 100)
-    window.moveTo(950, 950)
+    window.moveTo(1350, 1350)
 
     # Chemin du script PowerShell que vous souhaitez exécuter
     powershell_script_path = r'C:\Users\jeyak\wifi_connect.ps1'
