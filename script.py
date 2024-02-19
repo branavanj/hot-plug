@@ -15,7 +15,7 @@ if window:
     window.moveTo(950, 950)
 
     # Chemin du script PowerShell que vous souhaitez exécuter
-    powershell_script_path = r'C:\Users\jeyak\Documents\Cours\Hot Plug\Script\wifi_connect.ps1'
+    powershell_script_path = r'C:\Users\jeyak\wifi_connect.ps1'
 
     # Exécuter le script PowerShell en arrière-plan
     subprocess.Popen(['powershell', '-File', powershell_script_path], universal_newlines=True, shell=True)
